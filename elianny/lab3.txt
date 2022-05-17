@@ -1,0 +1,18 @@
+<!--doctypehtm-->
+ 
+<head>
+<title> base html document <aitle>
+     </head>
+
+     <body> 
+     <h1 style="color :#00008BB;"> Digital Design </h1>
+     <h2 style="color:#00008B;"> Lab 3 </h2>
+     <h3 style="color:#00008B;"> by elianny reynoso vasquez </h3>
+       <a href="http://WWW.w3schools.com">  
+     </a>   
+     <p style="color:#"color:#B0C4DE;">...</P>
+     <a href="ing" src=w3schools.jpg" < a>
+        <br>
+      </a>
+      <a href="http://techteach.us">...< /a>
+      <p style="color:#B0C4DE;">...</p>

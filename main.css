@@ -1,0 +1,44 @@
+/* picking box size*/
+*{ 
+  box-sizing: border-box;
+}
+
+/* the website backround colors */
+body{
+   background-color: lavender;
+   color: blueviolet;
+ }
+ /* style of the navigation bar*/
+ .topnav{
+   background-color: white;
+   overflow: hidden; 
+ }
+
+ /* style the links inside the navigation bar*/
+ .topnav a{
+color: brown; 
+float: left;
+display: block;
+text-align: center;
+padding: 14px 16px;
+  }
+  /* changes color on hover or mouse over*/
+   .topnav a:hover{
+     background-color: powderblue;
+     color: floralwhite;  
+   }
+   /* style of the header*/
+  .header{ 
+    background-color: pink;
+    padding: 20px;
+    text-align: right;
+    color: plum;
+  }
+ .column{
+    float: left;
+    width:33.33%;
+    padding: 15px;
+    border: 5px solid plum;
+    background-color: floralwhite;
+  }
+  

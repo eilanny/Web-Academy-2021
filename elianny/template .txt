@@ -1,0 +1,18 @@
+<!--doctypehtm-->
+ 
+<head>
+<title> base html document <aitle>
+     </head>
+     <body> 
+     <h1> TAEHS </h1>
+     <h2> web DEV. <h2>
+     <h3> 10th Grade </h3>
+     <h4> Lab # </h4>
+     <h5> learning material </h5>
+     <h6> elianny reynoso vasquez </h6>
+     
+     <p>     content </p>
+    
+          </body>
+          
+          </htm

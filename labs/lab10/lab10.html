@@ -1,0 +1,101 @@
+q<!DOCTYPE html>
+<html>
+<head>
+
+	<title> lab 10  Internal css  </title>
+ <!-- <style>
+*{box-sizing:border-box;}
+/* A css selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class) */
+/* any html tag can be a selector */
+
+    </style>
+  <link href="../../main.css" rel="stylesheet" type="text/css" >-->
+
+<style>
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: pink;}
+ <img src="cute heart.png" alt="200">
+  }
+  #demoBox {
+    text-align: center;
+    color: green;
+  }
+  p, h1, h3 {
+    color:red;
+  }
+
+   /* A combinator is something that explains the relationship between selectors. A css selector can contain more than one simple selector. Between the simple selectors, we can include a cmbinator. There are four different combinators in css */
+.header h3{color:baby blue;}
+  .topnav{
+   background-color: 	#FFFFFF;
+   overflow: hidden; 
+ }
+
+ /* style the links inside the navigation bar*/
+ .topnav a{
+color: brown; 
+float: left;
+display: block;
+text-align: center;
+padding: 14px 16px;
+  }
+  /* changes color on hover or mouse over*/
+  /* A pseudo-class is used to define a special state of an element \. for example, it can be used to: 
+  style an element When a user mouses over it 
+  style visited and unvisited links differently 
+  Style an element when it gets focus */
+   .topnav a:hover{
+     background-color: powderblue;
+     color: floralwhite;  
+   }
+   /* Css[attribute] selector
+   The [attribute] selector is used to select elements with a specified attribute. 
+   The following example selects all <a> elements with a target attribute:*/ 
+   a[target] {background-color: black;
+   }
+</style>
+
+</head>
+<body>
+<div class="topnav">
+  <a href="../lab1/lab1.html">LAB1</a>
+<a href="../lab2/lab2.html">LAB2</a>
+<a href="../lab3/lab3.html">LAB3</a>
+<a href="../lab4/lab4.html">LAB4</a>
+<a href="../lab5/lab5.html">LAB5</a>
+<a href="../lab6/lab6.html">LAB6</a>
+<a href="../lab7/lab7.html">LAB7</a>
+<a href="../lab8/lab8.html">LAB8</a>
+<a href="../lab 9/lab9.html">LAB9</a>
+<a href="../lab10/lab10.html">LAB10</a>
+<a href="../lab11/lab11.html">LAB11</a>
+<a href="../lab12/lab12.html">LAB12</a>
+<a href="../lab13/lab13.html">LAB13</a>
+<a href="../lab14/lab14.html">LAB14</a>
+<a href="../lab15/lab15.html">LAB15</a>
+<a href="../lab16/lab16.html">LAB16</a>
+<a href="../lab17/lab17.html">LAB17</a>
+<a href="../lab18/lab18.html">LAB18</a>
+<a href="../lab19/lab19.html">LAB19</a>
+<a href="../lab20/lab20.html">LAB20</a>
+</div>
+
+ <div class="header">
+   <h1> TAEHS </h1>
+   <h2> WEB design academy </h2>
+   <h3> LAB 10 Internal css </h3>
+   <h5> Elianny reynoso vasquez </h5>
+ </div>
+ <div id="demoBox">
+   <h1> Elianny </h1>
+   <h1 id="lname"> Reynoso vasquez </h1>
+   <h1> 2/9/22 </h1>
+   <a href="page.html"> </a>
+ </div>
+ <p id="demo"> </p>
+</body>
+
+</html>
